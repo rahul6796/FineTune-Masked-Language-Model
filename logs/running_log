@@ -80,3 +80,24 @@ Source-Age: 1
 
 
 2024-10-05 13:47:23,099 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 14:11:44,048 - INFO - Directory created: artifacts
+2024-10-05 14:11:44,049 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 14:11:44,049 - ERROR - error is raised from download file :: name 'get_size' is not defined
+2024-10-05 14:11:44,252 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 14:11:44,253 - INFO - Directory created: artifacts
+2024-10-05 14:11:44,253 - INFO - Directory created: artifacts/data_validation
+2024-10-05 14:11:44,253 - ERROR - Error in data validation: name 'os' is not defined
+2024-10-05 14:12:09,156 - INFO - Directory created: artifacts
+2024-10-05 14:12:09,156 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 14:12:09,156 - ERROR - error is raised from download file :: name 'get_size' is not defined
+2024-10-05 14:12:09,354 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 14:12:09,355 - INFO - Directory created: artifacts
+2024-10-05 14:12:09,355 - INFO - Directory created: artifacts/data_validation
+2024-10-05 14:12:09,355 - ERROR - Error in data validation: name 'FALSE' is not defined
+2024-10-05 14:12:23,237 - INFO - Directory created: artifacts
+2024-10-05 14:12:23,237 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 14:12:23,237 - ERROR - error is raised from download file :: name 'get_size' is not defined
+2024-10-05 14:12:23,435 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 14:12:23,436 - INFO - Directory created: artifacts
+2024-10-05 14:12:23,436 - INFO - Directory created: artifacts/data_validation
+2024-10-05 14:12:23,437 - INFO - Data ingestion stage completed successfully. Stage state: data validation

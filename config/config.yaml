@@ -5,3 +5,9 @@ data_ingestion:
   source_url: https://github.com/rahul6796/datasets1/raw/refs/heads/main/imbd.zip
   local_file_dir: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+data_validation:
+  root_dir: artifacts/data_validation
+  ALL_FILES: ['train', 'test']
+  STATUS: artifacts/data_validation/status.txt
+   
