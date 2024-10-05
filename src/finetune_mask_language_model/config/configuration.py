@@ -3,7 +3,7 @@
 from src.finetune_mask_language_model.constant import CONFIG_FILE, PARAMS_FILE
 from src.finetune_mask_language_model.utils.common import read_yaml, create_directories
 from src.finetune_mask_language_model.entity import DataIngestionConfig, DataValidationConfig
-
+from src.finetune_mask_language_model.entity import DataTransformationConfig
 
 
 
@@ -41,7 +41,19 @@ class ConfigManager:
 
 
         return data_validation_config
+
+
+    def get_data_transformation_config(self)->DataTransformationConfig:
+        config = self.config.data_transformation
+        create_directories([config.root_dir])
+
+        data_transformation_config = DataTransformationConfig(
+            root_dir = config.root_dir,
+            data_path = config.data_path,
+            tokenizer = config.tokenizer
+        )
     
+        return data_transformation_config
 
 
 

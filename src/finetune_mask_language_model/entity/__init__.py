@@ -19,4 +19,10 @@ class DataValidationConfig:
     STATUS: Path
     
 
+@dataclass(frozen = True)
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path
+    tokenizer: Path
+
 

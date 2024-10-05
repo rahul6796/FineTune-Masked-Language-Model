@@ -101,3 +101,75 @@ Source-Age: 1
 2024-10-05 14:12:23,436 - INFO - Directory created: artifacts
 2024-10-05 14:12:23,436 - INFO - Directory created: artifacts/data_validation
 2024-10-05 14:12:23,437 - INFO - Data ingestion stage completed successfully. Stage state: data validation
+2024-10-05 14:36:53,851 - INFO - PyTorch version 2.4.0 available.
+2024-10-05 14:36:53,852 - INFO - TensorFlow version 2.17.0 available.
+2024-10-05 14:36:53,982 - INFO - Directory created: artifacts
+2024-10-05 14:36:53,982 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 14:36:53,982 - ERROR - error is raised from download file :: name 'get_size' is not defined
+2024-10-05 14:36:54,185 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 14:36:54,186 - INFO - Directory created: artifacts
+2024-10-05 14:36:54,186 - INFO - Directory created: artifacts/data_validation
+2024-10-05 14:36:54,186 - INFO - Data ingestion stage completed successfully. Stage state: data validation
+2024-10-05 14:36:54,187 - INFO - Directory created: artifacts
+2024-10-05 14:36:54,187 - INFO - Directory created: artifacts/data_transformation
+2024-10-05 14:36:59,055 - ERROR - Error in data transformation: name 'tokenize_function' is not defined
+2024-10-05 14:37:18,112 - INFO - PyTorch version 2.4.0 available.
+2024-10-05 14:37:18,112 - INFO - TensorFlow version 2.17.0 available.
+2024-10-05 14:37:18,204 - INFO - Directory created: artifacts
+2024-10-05 14:37:18,204 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 14:37:18,204 - ERROR - error is raised from download file :: name 'get_size' is not defined
+2024-10-05 14:37:18,403 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 14:37:18,404 - INFO - Directory created: artifacts
+2024-10-05 14:37:18,405 - INFO - Directory created: artifacts/data_validation
+2024-10-05 14:37:18,405 - INFO - Data ingestion stage completed successfully. Stage state: data validation
+2024-10-05 14:37:18,406 - INFO - Directory created: artifacts
+2024-10-05 14:37:18,406 - INFO - Directory created: artifacts/data_transformation
+2024-10-05 14:37:18,741 - ERROR - Error in data transformation: DataTransformation.tokenize_function() takes 1 positional argument but 2 were given
+2024-10-05 14:37:38,970 - INFO - PyTorch version 2.4.0 available.
+2024-10-05 14:37:38,971 - INFO - TensorFlow version 2.17.0 available.
+2024-10-05 14:37:39,063 - INFO - Directory created: artifacts
+2024-10-05 14:37:39,063 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 14:37:39,063 - ERROR - error is raised from download file :: name 'get_size' is not defined
+2024-10-05 14:37:39,266 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 14:37:39,267 - INFO - Directory created: artifacts
+2024-10-05 14:37:39,267 - INFO - Directory created: artifacts/data_validation
+2024-10-05 14:37:39,267 - INFO - Data ingestion stage completed successfully. Stage state: data validation
+2024-10-05 14:37:39,268 - INFO - Directory created: artifacts
+2024-10-05 14:37:39,268 - INFO - Directory created: artifacts/data_transformation
+2024-10-05 14:37:40,019 - ERROR - Error in data transformation: name 'tokenizer' is not defined
+2024-10-05 14:38:00,381 - INFO - PyTorch version 2.4.0 available.
+2024-10-05 14:38:00,381 - INFO - TensorFlow version 2.17.0 available.
+2024-10-05 14:38:00,472 - INFO - Directory created: artifacts
+2024-10-05 14:38:00,472 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 14:38:00,472 - ERROR - error is raised from download file :: name 'get_size' is not defined
+2024-10-05 14:38:00,671 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 14:38:00,672 - INFO - Directory created: artifacts
+2024-10-05 14:38:00,672 - INFO - Directory created: artifacts/data_validation
+2024-10-05 14:38:00,672 - INFO - Data ingestion stage completed successfully. Stage state: data validation
+2024-10-05 14:38:00,673 - INFO - Directory created: artifacts
+2024-10-05 14:38:00,673 - INFO - Directory created: artifacts/data_transformation
+2024-10-05 14:38:06,942 - ERROR - Error in data transformation: name 'os' is not defined
+2024-10-05 14:38:17,328 - INFO - PyTorch version 2.4.0 available.
+2024-10-05 14:38:17,328 - INFO - TensorFlow version 2.17.0 available.
+2024-10-05 14:38:17,424 - INFO - Directory created: artifacts
+2024-10-05 14:38:17,424 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 14:38:17,424 - ERROR - error is raised from download file :: name 'get_size' is not defined
+2024-10-05 14:38:17,626 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 14:38:17,627 - INFO - Directory created: artifacts
+2024-10-05 14:38:17,627 - INFO - Directory created: artifacts/data_validation
+2024-10-05 14:38:17,627 - INFO - Data ingestion stage completed successfully. Stage state: data validation
+2024-10-05 14:38:17,628 - INFO - Directory created: artifacts
+2024-10-05 14:38:17,628 - INFO - Directory created: artifacts/data_transformation
+2024-10-05 14:38:21,693 - INFO - Data ingestion stage completed successfully. Stage state: data transformation
+2024-10-05 15:53:53,554 - INFO - PyTorch version 2.4.0 available.
+2024-10-05 15:53:53,555 - INFO - TensorFlow version 2.17.0 available.
+2024-10-05 15:53:53,648 - INFO - Directory created: artifacts
+2024-10-05 15:53:53,648 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 15:53:53,648 - ERROR - error is raised from download file :: name 'get_size' is not defined
+2024-10-05 15:53:53,849 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 15:53:53,850 - INFO - Directory created: artifacts
+2024-10-05 15:53:53,850 - INFO - Directory created: artifacts/data_validation
+2024-10-05 15:53:53,851 - INFO - Data ingestion stage completed successfully. Stage state: data validation
+2024-10-05 15:53:53,851 - INFO - Directory created: artifacts
+2024-10-05 15:53:53,851 - INFO - Directory created: artifacts/data_transformation
+2024-10-05 15:53:54,595 - INFO - Data ingestion stage completed successfully. Stage state: data transformation

@@ -10,4 +10,10 @@ data_validation:
   root_dir: artifacts/data_validation
   ALL_FILES: ['train', 'test']
   STATUS: artifacts/data_validation/status.txt
-   
+
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion/imbd
+  tokenizer: distilbert/distilbert-base-uncased
+  
