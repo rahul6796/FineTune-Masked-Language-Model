@@ -51,3 +51,32 @@ Source-Age: 1
 
 
 2024-10-04 13:45:13,772 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
+2024-10-05 13:47:14,325 - INFO - Directory created: artifacts
+2024-10-05 13:47:14,325 - INFO - Directory created: artifacts/data_ingestion
+2024-10-05 13:47:22,897 - INFO - artifacts/data_ingestion/data.zip download with following info : \Connection: close
+Content-Length: 25599853
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "af7cc4c4d1a7ad123a0eb9a84f77107da7ba73d530dcf73d2febdbd5ba7282ac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5DE6:32E4A:5659C:7B150:6700F60B
+Accept-Ranges: bytes
+Date: Sat, 05 Oct 2024 08:17:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10243-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1728116236.830268,VS0,VE1777
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0509e9ffb956250e4fa039c8d9b1e912fcda320d
+Expires: Sat, 05 Oct 2024 08:22:17 GMT
+Source-Age: 1
+
+
+2024-10-05 13:47:23,099 - INFO - Data ingestion stage completed successfully. Stage state: data ingestion
